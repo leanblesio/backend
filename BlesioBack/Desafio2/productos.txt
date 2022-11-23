@@ -1,0 +1,8 @@
+[{id:1,
+nombre: 'moto',
+price: 123333,},
+{id:2,
+nombre: 'auto',
+price: 423333,},
+
+]

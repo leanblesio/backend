@@ -1,0 +1,27 @@
+<h2 style="color:rgb(0, 157, 255);">Historial</h2>
+
+{{#if hayProductos}}
+<table>
+    <tr style="color: blueviolet;">
+        <th>Nombre</th>
+        <th>Precio</th>
+        <th>URL</th>
+    </tr>
+    {{#each productos}}
+    <tr>
+        <td>
+            {{this.nombre}}
+        </td>
+        <td>
+            ${{this.price}}
+        </td>
+        <td>
+        <img src="{{this.url}}" alt="{{this.nombre}}" width="100"
+         height="100">     
+        </td>
+    </tr>
+    {{/each}}
+</table>
+{{else}}
+<h3>no se encontraron datos</h3>
+{{/if}}

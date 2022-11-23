@@ -1,0 +1,13 @@
+{
+  "name": "desafio3",
+  "version": "1.0.0",
+  "description": "Desafio coder n° 3",
+  "main": "main.js",
+  "scripts": {},
+  "author": "Leandro Blesio",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "moment": "^2.29.4"
+  }
+}
